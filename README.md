@@ -29,11 +29,12 @@ where `{number}` is the number of the task.
 
 3. Run files:
 
+   Note that the task-1 cannot be run in Node because it uses `DOMParser`, which is available only in browsers.
+
    ```shell
-   $ node task-1.js
-   ...
    $ node task-2.js
    ...
    ```
 
-   Assuming you have Node installed. If not, you can copy the code from tasks and paste it into your browser console.
+   Assuming you have Node installed.  
+   If you do not have Node or want to run `task-1.js`, you can copy the code from files and paste it into your browser console.
